@@ -520,34 +520,34 @@ function AddDayAndTemerature(InputDays, InputHours) {
 
   switch (((new Date().getDay()) + InputDays) % 7) {
       case 0:
-        console.log("Sunday, " + Output.list[InputHours].main.temp + "C°")
-        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Sunday, " + Output.list[InputHours].main.temp + "C°" // Change the C° for another unit; 
+        console.log("Sunday, " + Output.list[InputHours].main.temp + "F°")
+        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Sunday, " + Output.list[InputHours].main.temp + "F°" // Change the F° for another unit; 
         // use Math.floor(Output.list[InputHours].main.temp + 0.5) instead of Output.list[InputHours].main.temp to round the numbers
         break;
       case 1:
-        console.log("Monday, " + Output.list[InputHours].main.temp + "C°")
-        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Monday, " + Output.list[InputHours].main.temp + "C°"
+        console.log("Monday, " + Output.list[InputHours].main.temp + "F°")
+        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Monday, " + Output.list[InputHours].main.temp + "F°"
         break;
       case 2:
-        console.log("Tuesday, " + Output.list[InputHours].main.temp + "C°")
-        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Tuesday, " + Output.list[InputHours].main.temp + "C°"
+        console.log("Tuesday, " + Output.list[InputHours].main.temp + "F°")
+        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Tuesday, " + Output.list[InputHours].main.temp + "F°"
         break;
       case 3:
-        console.log("Wednesday, " + Output.list[InputHours].main.temp + "C°")
-        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Wednesday, " + Output.list[InputHours].main.temp + "C°"
+        console.log("Wednesday, " + Output.list[InputHours].main.temp + "F°")
+        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Wednesday, " + Output.list[InputHours].main.temp + "F°"
         break;
       case 4:
-        console.log("Thursday, " + Output.list[InputHours].main.temp + "C°")
-        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Thursday, " + Output.list[InputHours].main.temp + "C°"
+        console.log("Thursday, " + Output.list[InputHours].main.temp + "F°")
+        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Thursday, " + Output.list[InputHours].main.temp + "F°"
         break;
       case 5:
       console.log(InputHours)
-        console.log("Friday, " + Output.list[InputHours].main.temp + "C°")
-        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Friday, " + Output.list[InputHours].main.temp + "C°"
+        console.log("Friday, " + Output.list[InputHours].main.temp + "F°")
+        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Friday, " + Output.list[InputHours].main.temp + "F°"
         break;
       case 6:
-        console.log("Saturday, " + Output.list[InputHours].main.temp + "C°")
-        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Saturday, " + Output.list[InputHours].main.temp + "C°"
+        console.log("Saturday, " + Output.list[InputHours].main.temp + "F°")
+        document.querySelector("div.Text.Obj" + InputDays).innerHTML = "Saturday, " + Output.list[InputHours].main.temp + "F°"
         break;
     }
 }
